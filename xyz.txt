@@ -1,0 +1,13 @@
+1 : if a < 10 goto 3
+2 : goto 13
+3 : t1 = a + 1
+4 : a  =  t1 
+5 : a  =  23
+6 : if a == 23 goto 8
+7 : goto 10
+8 : a  =  10
+9 : goto 12
+10 : a  =  19
+11 : goto 12
+12 : goto 1
+13 : end
